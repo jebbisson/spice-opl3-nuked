@@ -1,0 +1,17 @@
+GNU LESSER GENERAL PUBLIC LICENSE
+Version 2.1, February 1999
+
+This repository is distributed under the GNU Lesser General Public License
+version 2.1 or, at your option, any later version.
+
+The full license text is provided in `opl3/COPYING`.
+
+Additional repository notice:
+
+Copyright (C) 2013-2020 Nuke.YKT
+Copyright (C) 2026 Jeb Bisson
+
+This repository vendors the upstream Nuked-OPL3 source and adds a Go wrapper
+around it. The wrapper and the combined library distribution are made available
+under LGPL-2.1-or-later to preserve a clear licensing boundary for downstream
+consumers.
