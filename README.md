@@ -34,6 +34,19 @@ func main() {
 - Go with `CGO_ENABLED=1`
 - a working C compiler such as `gcc` or `clang`
 
+## Shared Library Build
+
+This repository now includes an initial `c-shared` export target for dynamic
+linking experiments and downstream relinking workflows.
+
+Build it with:
+
+```bash
+go build -buildmode=c-shared -o libspice_nuked_opl3.so ./cmd/nukedopl3shared
+```
+
+See `cmd/nukedopl3shared/README.md` for the exported ABI.
+
 ## License
 
 This repository is distributed under `LGPL-2.1-or-later`.

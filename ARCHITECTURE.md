@@ -19,5 +19,14 @@ The long-term intent is for this repository to also provide a replaceable shared
 library build target with a stable ABI for downstream projects that need a more
 LGPL-friendly relinking story.
 
-That ABI is not implemented yet in this repository, but this package layout is
-intended to be the source of truth for that future work.
+An initial handle-based `c-shared` export target now exists in
+`cmd/nukedopl3shared`.
+
+That shared-library ABI is intentionally small and focused on:
+
+- lifecycle management
+- register writes
+- sample generation
+- solo-channel control
+
+It should be treated as an early foundation rather than a frozen ABI.
